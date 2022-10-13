@@ -1,0 +1,21 @@
+{
+  "name": "poc-excel-download",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "express": "^4.18.1",
+    "multiparty": "^4.2.3",
+    "nodemon": "^2.0.20",
+    "xlsx": "^0.18.5"
+  }
+}
